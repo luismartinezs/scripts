@@ -1,16 +1,16 @@
 const exchange = {
   btcPrice: {
-    google: 46868,
-    ByBit: 46997,
-    "ByBitReal": 48731,
-    "Binance": 46858.87,
-    "Coinmarketcap": 46831,
-    "Coinbase": 46875,
-    "Kraken": 46947,
-    Swissborg: 48457.66
+    google: 48263,
+    ByBit: 48294,
+    "ByBitReal": 50135,
+    "Binance": 48200,
+    "Coinmarketcap": 48281.60,
+    "Coinbase": 48265,
+    "Kraken": 48229,
+    Swissborg: 48226 // not at same time as other exchanges
   }
 }
 
-const sorted = Object.entries(exchange.btcPrice).sort((a, b) => a[1] - b[1]).map((e, idx, arr) => ([e[0], e[1] - arr[0][1]]))
+const sorted = Object.entries(exchange.btcPrice).sort((a, b) => a[1] - b[1]).map((e, _, arr) => ([e[0], e[1] - arr[0][1]]))
 
 console.log(sorted);
