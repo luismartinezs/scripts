@@ -1,0 +1,13 @@
+lockfileVersion: 5.3
+
+specifiers:
+  mortgage: ^0.3.0
+
+dependencies:
+  mortgage: 0.3.0
+
+packages:
+
+  /mortgage/0.3.0:
+    resolution: {integrity: sha512-6HPzCiW5KARllOD/596epEKYI3lZutHwoqTtZtvdywoLfbTpg50pFSfC2QtpDO9O358Z5vYvOEqCT+Ripq0FJA==}
+    dev: false
