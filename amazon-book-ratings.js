@@ -1,3 +1,5 @@
+// Note: this script is broken because amazon keeps changing their site
+
 // Run this from a wishlist of amazon books
 // config
 MIN_RATINGS = 20;
